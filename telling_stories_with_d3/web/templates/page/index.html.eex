@@ -1,0 +1,420 @@
+<div class='content'>
+  <section class="slide">
+    <h1>Telling Stories with data visualization.</h1>
+    <h2 class="subtitle">Chris Keathley / @ChrisKeathley<h2>
+    <aside class="notes">
+      Hey everyone, my name is Chris Keathley. Thanks for coming out...
+      I want to talk about data visualization.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <div class="chart graph" id='pie'>
+    </div>
+  </section>
+
+  <section class='slide'>
+    <div class="chart graph" id='pop-histogram'>
+    </div>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Why do we care?
+    </h1>
+    <aside class="notes">
+      * Data visualization gives us the ability to look at data from a unique
+        perspective.
+      * Businesses run on data. Visuals allow us to ask questions in a unique
+        way.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Server Responses
+      <!-- <button type="button" class="btn js-add-slow-response">
+        Add 3s Response
+      </button> -->
+    </h1>
+    <!-- <section class='inner-slide'>
+      <div id="averages" class="graph"></div>
+    </section> -->
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Data visualization provides a certain bias.
+    </h1>
+    <aside class="notes">
+      We can't help but be influenced by this.
+      We're not talking about being shitty here. In many ways this bias is
+      unconcious.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Visualizations tell us a story</h1>
+    <h2>We get one perspective on the data</h2>
+  </section>
+
+  <section class='slide'>
+    <h1>State the narrative first</h1>
+  </section>
+
+  <section class='slide'>
+    <!-- <div id="averages" class="graph"></div> -->
+  </section>
+
+  <section class='slide'>
+    <div id='averages-histogram' class="graph"></div>
+  </section>
+
+  <section class='slide'>
+    <h1>Server Response</h1>
+    <h2>"How are we doing overall?"</h2>
+    <!-- <div id='averages-histogram' class="graph"></div> -->
+    <aside class="notes">
+      This may seem painfully obvious at first.
+      But stating the narrative exposes the issue.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>What are the response times that our users experience?</h1>
+    <aside class='notes'>
+      We need to reframe this problem to be something more interesting
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>What are the response times that our users experience?</h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <aside class='notes'>
+      This was our original graph
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Server Responses (fixed)
+    </h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <div class="graph">
+      <h1>Example histogram goes here</h1>
+    </div>
+    <aside class="notes">
+      We can see that this accurately answers the question correctly.
+      More importantly this will show us when we have issues. Our naive
+      line graph hides this information because its telling a vague story
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Reveals more information about the data
+    </h1>
+    <div class="chart">
+      <h1>Line graph goes here</h1>
+    </div>
+    <div class="graph">
+      <h1>Example histogram goes here</h1>
+    </div>
+    <aside class="notes">
+      This is all the same data. But they're two viewpoints into that data.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Other visualizations that do this well</h1>
+     <aside class='notes'>
+      Here are some other visualizations that manage to do this really
+      well
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h2>Gigabit rollout of Chattanooga</h2>
+    <img src="/images/gigabit.png" alt="Gigabit rollout in Chattanooga" />
+  </section>
+
+  <section class='slide'>
+    <h2>Facebook IPO</h2>
+    <img src="/images/facebook_ipo.png" alt="Facebook IPO" />
+    <aside class='notes'>
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h2>Interests vs. Experience</h2>
+    <img src="/images/experience_map.png" alt="Experience map" />
+    <aside class='notes'>
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h2>Lightwave</h2>
+    <img src="/images/lightwave.png" alt="Lightwave" />
+    <aside class='notes'>
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>The problem with stories</h1>
+    <aside class='notes'>
+      The challenge with telling stories is really that telling the proper
+      story is hard. It requires itteration. You have to reflect on the
+      questions that you're asking.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>sometimes the answers are boring</h1>
+    <aside class='notes'>
+      Sometimes the answers won't be interesting. However, that doesn't
+      mean the question is wrong. Often we think about the
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Charts can be costly to create</h1>
+    <aside class='notes'>
+      Lots of charting tools are hard to use. They are often inflexible or
+      aren't powerful enough to tell the story that you need to tell.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>D3</h1>
+    <aside class='notes'>
+      JS + D3 is my tool of choice. It affords me flexibility to create
+      interesting visuals using the same data. Its an incredibly powerful
+      library
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      selectors
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      data binding
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      svg generation
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      other stuff and things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      How I write D3.
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      es6
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      modules
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      arrows
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      snippets
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      You should always favor snippets over other things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>Our problem:</h1>
+    <img src="/images/meetup.png" alt="Chadev meetup" />
+    <aside class='notes'>
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <div id='basic-attendance' class='graph'></div>
+    <aside class='notes'>
+      This is the most basic graph we can do for attendance. There are some
+      key signals here. But how can we showcase these signals? Why do we have
+      these signals at all?
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Make a hypothesis</h1>
+  </section>
+
+  <section class='slide'>
+    <h1>How to write a hypothesis</h1>
+    <p>make an assertion</p>
+    <p>be testable</p>
+  </section>
+
+  <section class='slide'>
+    <h1>Example:<h1>
+    <p>
+      How do we get more people to come to our meetup?
+    </p>
+    <aside class='notes'>
+      This is too vague and isn't testable
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Example:</h1>
+    <p>
+      Attendees only go to talks that apply to their jobs.
+    </p>
+    <aside class="notes">
+      This is better but its still hard to test. In fact we have no idea
+      what people are working in all of the time. So this would be impossible to
+      truly test.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>Example:</h1>
+    <p>
+      Topics are corelated to attendance
+    </p>
+    <aside class='notes'>
+      This is something that we can verify. Now how do we translate this into
+      a visualization
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <div class="graph" id="attendance-by-topic"></div>
+    <button type="button" name="button" class='js-sort-topics'>sort</button>
+    <aside class='notes'>
+      Why was this spike here? Well it turns out that there was a changing of
+      the guard that coincided with a location change and we lost a whole set of
+      users. We can't say why but there is this other information that correlates
+      with it.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <!-- <div class="graph" id="members-attendance"></div> -->
+    <aside class='notes'>
+      Once again we rethink our problem (in the same way that we rethought the server
+      responses) and we see that what we're really talking about here is users.
+      Because of that we can see that this is actually a distrobution.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <!-- <div class="graph" id="attendance-histogram"></div> -->
+    <aside class='notes'>
+      Once again we rethink our problem (in the same way that we rethought the server
+      responses) and we see that what we're really talking about here is users.
+      Because of that we can see that this is actually a distrobution.
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <div class="graph" id="attendance-matrix"></div>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      TODO - build a graph that shows the trends over time and see how that
+      would correlate with our current examples
+    </h1>
+    <aside class='notes'>
+    </aside>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Show same chart but highlighted with colors for topic
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Showcase some basic D3.
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Show proper chart building skills (axis, colors, etc.)
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Does this answer our question?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      What narrative are we telling?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      What new questions do we have?
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Re-create graph but changing some things
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Question your own biases
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Always try to expose the truth
+    </h1>
+  </section>
+
+  <section class='slide'>
+    <h1>
+      Thanks!
+    </h1>
+  </section>
+</div>
