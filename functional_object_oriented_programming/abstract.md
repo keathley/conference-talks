@@ -1,0 +1,3 @@
+One of the only certainties of software development is change. This change can often be painful because it means that we have to refactor or rewrite large quantities of our application. In order to ease the pain, programmers have developed a number of rules and techniques and codified them as "Best Practices". This is especially true in Object Oriented Programming. But, despite all of our best practices we can still find ourselves fighting against complexity.
+
+Using real world examples we will discuss the strengths and weaknesses of OOP and explore the benefits of applying functional programming to our OOP code. Using these techniques we’ll see how its possible to create simpler abstractions without giving up all of the benefits that OOP provides.

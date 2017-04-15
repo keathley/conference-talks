@@ -1,2 +1,0 @@
-defmodule QcExample do
-end
