@@ -1,0 +1,43 @@
+* Canary Deployments with Phoenix Presence
+
+Deploying software can be a nerve-wracking process. Often deployments need to be
+conducted during "off-hours" and are orchestrated across multiple
+teams. Deploying features becomes a large scale event. When these deployments
+inevitably fail on-call staff have to scramble to find the cause of these new
+bugs, rollback changes, and fix broken data. Under these hostile conditions forward
+progress grinds to a halt.
+
+We were recently faced with these same challenges and we decided to take a
+different approach to the problem. Instead of deploying releases on a set
+schedule we decided to automatically deploy new features as soon as they
+were finished (and sometimes even before they're finished).
+
+In this talk we'll look at the benefits of continous deployments and showcase
+how we can use the power of Erlang, Elixir, and Phoenix presence to safely
+deploy new features multiple times a day. Specifically we'll look at how we
+built an Elixir application using Phoenix Presence to automate rollout
+of new features to specific users of our applications. We'll explore how this
+infrastructure has allowed us to better monitor and experiment with new features
+before they see widespread use. Finally we'll discuss some of the benefits and
+pitfalls of this approach and how we might build upon it to gain even more
+confidence with every deploy.
+
+* Canary Deployments for Continuous Delivery
+
+Deploying software can be a nerve-wracking process. Often deployments need to be
+conducted during "off-hours" and are orchestrated across multiple
+teams. Deploying features becomes a large scale event. When these deployments
+inevitably fail on-call staff have to scramble to find the cause of these new
+bugs, rollback changes, and fix broken data. Under these hostile conditions forward
+progress grinds to a halt.
+
+We were recently faced with these same challenges and we decided to take a
+different approach to the problem. Instead of deploying releases on a set
+schedule we decided to automatically deploy new features as soon as they
+were finished (and sometimes even before they're finished).
+
+In this talk we'll look at the benefits of continous deployments and showcase
+some of the tools and techniques that we use to safely deploy multiple times a
+day. Specifically we'll discuss automated deploys, methodology for rolling out
+database migrations, tools for canary deployments, feature flags, and how to
+monitor and test your deployments.

@@ -1,0 +1,12 @@
+* Consistent, Distributed Elixir
+
+Elixir and Erlang provide powerful mechanisms for building systems that are
+always available. But when it comes to building distributed systems that need
+consistency erlang leaves many of the implementation details up to the
+programmer.
+
+In this talk we'll discuss the tradeoffs between systems that are
+always on and systems that are consistent. We'll look at the types
+of garauntees that standard erlang tooling gives us as well as their
+shortcomings. Finally we'll look at several patterns and techniques for building
+consistent, distributed systems using elixir.
